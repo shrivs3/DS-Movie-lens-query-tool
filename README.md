@@ -1,5 +1,5 @@
 # Database Final Project
-##     -Shrey Shrivastava <br/>and <br/>Smit Pandit
+##     -Shrey Shrivastava and Smit Pandit
 
 ## 1)	What data you used and where you got it?
 ->	The data was from the MovieLens 100K dataset and its size was 5 mb. The data is present at the Grouplens website. The dataset consisted of three files Rating.dat, Tags.dat and Movies.dat. These were converted into CSV files for ease in loading into PostgreSQL database and MongoDB database. The Tags.csv and Ratings.csv had ratingId, userId and movieId fields in common. So for the purposes of normalization userId and movieId fields were removed from Tags.csv.
