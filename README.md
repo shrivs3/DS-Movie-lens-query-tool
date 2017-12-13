@@ -1,14 +1,15 @@
-# DS-Movie-lens-query-tool
+# Database Final Project
+##     -Shrey Shrivastava and Smit Pandit
 
 ## 1)	What data you used and where you got it?
 ->	The data was from the MovieLens 100K dataset and its size was 5 mb. The data is present at the Grouplens website. The dataset consisted of three files Rating.dat, Tags.dat and Movies.dat. These were converted into CSV files for ease in loading into PostgreSQL database and MongoDB database. The Tags.csv and Ratings.csv had ratingId, userId and movieId fields in common. So for the purposes of normalization userId and movieId fields were removed from Tags.csv.
 
 ## 2)	How to build your application?
-->	We will be providing both the executable file to run the code and the python script that contains the code. You can run the python script, from the python interface on command prompt or an IDE of your choice, to use the application. However, there are a few libraries that need to be installed in the system before running the code. They are:
-i.	psycopg2
-ii.	pandas
-iii.	pymongo
-All of these libraries can be installed by using the “pip install <library-name>” command on the command prompt.
+->	We will be providing both the executable file to run the code and the python script that contains the code. You can run the python script, from the python interface on command prompt or an IDE of your choice, to use the application. However, there are a few libraries that need to be installed in the system before running the code. They are:<br/>
+i.	psycopg2<br/>
+ii.	pandas<br/>
+iii.	pymongo<br/>
+All of these libraries can be installed by using the “pip install <library-name>” command on the command prompt.<br/>
 Also ensure that all the csv files and the executable file/python script are in the same directory
 
 ## 3)	How to load the data into your application?
