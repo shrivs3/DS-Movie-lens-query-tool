@@ -10,7 +10,7 @@ i.	psycopg2<br/>
 ii.	pandas<br/>
 iii.	pymongo<br/>
 All of these libraries can be installed by using the “pip install <library-name>” command on the command prompt.<br/>
-Also ensure that all the csv files and the executable file/python script are in the same directory
+Also ensure that all the csv files, mongofile.py file and the executable file/python script are in the same directory
 
 ## 3)	How to load the data into your application?
 ->	The python script automatically loads the data into the PostgreSQL and MongoDB databases. However, there a few steps that need to be followed to ensure that the data gets loaded:<br/>
@@ -24,7 +24,7 @@ vi.	Open another command prompt and enter “mongo” to see if MongoDB is runni
 vii.	Run the code or the executable. The application will do the rest.
 
 ## 4)	How to run and use the application to explore the data?
-->	The application can be used by either running the executable file or the python script while ensuring that all the CSV files are in the same directory as the executable or the python script. The application asks for the username and password for the PostgreSQL at the beginning of execution. Then the application loads all the data into the respective PostgreSQL and MongoDB databases. Once that is done the user gets to interact with the Text based interface to explore the data. If you do not want to insert the username and password into the application you can hard code the details into the python script at line 38.<br/> The code is as follows:<br/>
+->	The application can be used by either running the executable file or the python script while ensuring that all the CSV files and the mongofile.py file are in the same directory as the executable or the python script. The application asks for the username and password for the PostgreSQL at the beginning of execution. Then the application loads all the data into the respective PostgreSQL and MongoDB databases. Once that is done the user gets to interact with the Text based interface to explore the data. If you do not want to insert the username and password into the application you can hard code the details into the python script at line 38.<br/> The code is as follows:<br/>
 <br/>
 con = psycopg2.connect(dbname='postgres',user=username, host = 'localhost', password=password)<br/>
 <br/>
